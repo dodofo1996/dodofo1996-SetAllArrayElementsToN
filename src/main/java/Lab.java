@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 public class Lab {
     /**
@@ -23,6 +24,11 @@ public class Lab {
      * @return nothing, because of pass-by-reference, all changes will be reflected in the original array.
      */
     public void set(int[] arr, int n){
+        for ( int i =0; i< arr.length; i++){
+            Array.set(arr, i, n);
+
+
 
     }
+}
 }
